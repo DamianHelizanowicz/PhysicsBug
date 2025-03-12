@@ -8,6 +8,6 @@ public class Spawner : MonoBehaviour
 
     private void Start()
     {
-        Instantiate(prefab, new Vector3(-1.0f, 1.5f, 0.0f), Quaternion.identity, transform);
+        Instantiate(prefab, new Vector3(-1.0f, 1.5f, 0.0f), Quaternion.identity);
     }
 }

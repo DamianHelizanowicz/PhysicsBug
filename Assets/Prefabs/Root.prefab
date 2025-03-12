@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 5745293585036892768}
   - component: {fileID: 4636873544901238493}
   m_Layer: 0
-  m_Name: Kinematic
+  m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -395,7 +395,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 922aff36ac97ad74c94cf98d6d3517fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zDistance: -1.25
 --- !u!54 &5745293585036892768
 Rigidbody:
   m_ObjectHideFlags: 0

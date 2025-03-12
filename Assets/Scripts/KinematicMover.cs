@@ -9,7 +9,7 @@ public class KinematicMover : MonoBehaviour
         float time = Time.time * 2.0f;
 
         transform.localPosition = new Vector3(
-            Mathf.Sin(time) * 0.5f,
+            Mathf.Sin(time),
             Mathf.Sin(time),
             -1.0f);
     }
